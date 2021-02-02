@@ -1,0 +1,24 @@
+가장 큰 수를 K번 더하고 두 번째로 큰 수를 한번 더하는 연산을 반복하면 된다
+
+```
+# 큰 수 * K + 두 번째로 큰 수의 수열이 반복된다 즉 k+1인 수열이 m//(k+1) 만큼 반복되고,
+# m%(k+1) 만큼 큰 수가 더 더해지게 된다. 
+#가장 큰 수는 m//(k+1) *k + m % (k+1) 만큼 더해지고 
+#두 번째로 큰 수는 m에서 큰 수가 더해진 횟수를 뺀 만큼 더해지게 된다.
+
+n,m,k = map(int,input().split(" "))
+numbers = list(map(int, input().split(" ")))
+
+numbers.sort(reverse= True)
+first = numbers[0]
+second = numbers[1]
+
+count = int(m/(k+1)) * k
+count += m % (k+1)
+
+answer = 0
+answer += count*first
+answer += (m-count)*second
+
+print(answer)
+```
