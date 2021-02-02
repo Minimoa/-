@@ -1,0 +1,13 @@
+각 행마다 가장 작은 수를 찾은 뒤에 그 수 중에서 가장 큰 수를 찾는다
+```python 
+n, m = map(int,input().split(" "))
+ 
+result = 0
+for i in range(n):
+  data = sorted(list(map(int,input().split(" "))))
+  result = max(result,data[0])
+
+print(result) 
+
+
+```
