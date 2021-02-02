@@ -1,0 +1,62 @@
+**8*8 평면** 상에서 나이트는 2가지 경우로 이동할 수 있다.
+
+1. 수평으로 두 칸 이동한 뒤에 수직으로 한 칸 이동하기
+2. 수직으로 두 칸 이동한 뒤에 수평으로 한 칸 이동하기
+
+행 위치는 1 ~ 8
+열 위치는 a ~ h로 표현한다.
+
+나이트가 이동할 수 있는 경우의 수를 출력하는 프로그램을 작성하시오 
+
+**내가 푼거** 
+
+
+```python
+x,y = (input())
+nx = ord(x)-ord("a")
+ny = int(y)-1
+answer = 0
+ 
+dy = [-1,1]
+dx = [-1,1]
+
+
+
+for i in range(2):
+  for j in range(2):
+    _nx = nx + dx[i]*2 
+    _ny = ny + dy[j]
+    
+    if 8>_nx>=0 and 8>_ny >=0 : 
+      answer +=1
+  
+    _nx = nx + dx[i] 
+    _ny = ny + dy[j]*2
+
+    if 8>_nx>=0 and 8>_ny >=0 :
+      answer +=1
+  
+
+print(answer)
+```
+
+**답안**
+
+```python
+input_data = input()
+row  = int(input_data[1])
+column = int(ord(input_data[0])-int(ord('a'))+1)
+
+steps = [(-2,-1),(-1,-2),(1,-2),(2,-1),(2,1),(1,2),(-1,2),(-2,1)]
+
+result = 0
+
+for step in steps:
+  next_row = row+step[0]
+  next_column = column+step[1]
+
+  if next_row >= 1 and next_row <= 8 and next_column >= 1 and next_column <= 8:
+    result += 1
+
+print(result)
+```
