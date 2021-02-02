@@ -1,0 +1,38 @@
+나눠떨어지지 않으면 1을 뺀다
+나눠떨어지면 나눈다
+```python
+n,k = map(int,input().split(" "))
+
+cnt = 0
+while n > 1:
+  if n == 1:
+    break
+  if n % k == 0 :
+    n = n//k
+  else:
+    n-=1
+  cnt+=1
+  
+
+print(cnt)
+```
+
+결국 배수가 되면 한번에 나눌 수 있으므로 배수가 될 때까지 뺀 다음에 한번에 나눈다
+
+```python
+n,k = map(int,input().split(" "))
+result = 0
+
+while 1:
+  target = (n//k) * k
+  result += n-target
+  n = target
+
+  if n < k :
+    break
+  result += 1
+  n //= k
+
+result += (n-1)
+print(result)
+```
