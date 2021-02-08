@@ -47,12 +47,16 @@ if nothing:
  ####
 
 from collections import deque
+import sys
 
-n,m,k,x= map(int,input().split())
+input = sys.stdin
+n,m,k,x= map(int,input.readline().rstrip().split())
+
 graph = [[] for _ in range(n+1)]
 
 for _ in range(m):
-  a,b = map(int, input().split())
+  a,b = map(int, input.readline().rstrip().split())
+
   graph[a].append(b)
 
 distance = [-1] * (n+1)
@@ -77,3 +81,6 @@ for i in range(1,n+1):
 
 if nothing:
   print(-1)
+  
+  
+  
