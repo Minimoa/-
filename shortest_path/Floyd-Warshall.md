@@ -15,9 +15,8 @@
 `A → B `보다 작으면 업데이트 
 
 이때 (A,B)는 현재 확인하고 있는 노드를 제외한 N-1개의 노드 중에서 서로 다른 노드이므로 점화식은 이렇게된다. 
-$$
-D_a._b = min (D_a._b , D_a._k + D_k._b)
-$$
+![image](https://user-images.githubusercontent.com/13061461/108040107-40c96f80-7080-11eb-8caf-49b2cbbbc862.png)
+
 N-1 개 중에서 2개를 고르는 순열이기 때문에 _(N-1)P_2 이고 ![img](https://blog.kakaocdn.net/dn/cR3YOt/btqHBTdPGBn/X3nvQO9sWOnvKiaF79HtVK/img.png)이므로
 
 이걸 N번 반복하니까 총 O(N^3)이다.
