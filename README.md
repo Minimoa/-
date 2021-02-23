@@ -17,13 +17,13 @@
 ## Part 3
 | Chapter | Q                      | 1    | 2    | 3    |
 | ------- | ---------------------- | :--: |  :--: |  :--: |
-| **그리디**  | [01. 모험가 길드](https://github.com/Minimoa/TIC/blob/main/Part%203/1-1.md)        |  ✔     |      |      |
-|         | [02. 곱하기 혹은 더하기](https://github.com/Minimoa/TIC/blob/main/Part%203/1-2.md)  |✔      |      |      |
-|         | [03. 문자열 뒤집기](https://github.com/Minimoa/TIC/blob/main/Part%203/1-3.md)       | ✔     |      |      |
-|         | [04. 만들 수 없는 금액](https://github.com/Minimoa/TIC/blob/main/Part%203/1-4.md)  |  ✔   |      |      |
-|         | [05. 볼링공 고르기](https://github.com/Minimoa/TIC/blob/main/Part%203/1-5.md)      |    ✔ |      |      |
-|         | [06. 무지의 먹방 라이브](https://github.com/Minimoa/TIC/blob/main/Part%203/1-6.md) |    ✔  |      |      |
-| **구현** |[07. 럭키 스트레이트](https://github.com/Minimoa/TIC/blob/main/Part%203/1-7.md)    |     ✔  |      |      |
+| **그리디**  | [01. 모험가 길드](https://github.com/Minimoa/TIC/blob/main/Part%203/01.md)        |  ✔     |      |      |
+|         | [02. 곱하기 혹은 더하기](https://github.com/Minimoa/TIC/blob/main/Part%203/02.md)  |✔      |      |      |
+|         | [03. 문자열 뒤집기](https://github.com/Minimoa/TIC/blob/main/Part%203/03.md)       | ✔     |      |      |
+|         | [04. 만들 수 없는 금액](https://github.com/Minimoa/TIC/blob/main/Part%203/04.md)  |  ✔   |      |      |
+|         | [05. 볼링공 고르기](https://github.com/Minimoa/TIC/blob/main/Part%203/05.md)      |    ✔ |      |      |
+|         | [06. 무지의 먹방 라이브](https://github.com/Minimoa/TIC/blob/main/Part%203/06.md) |    ✔  |      |      |
+| **구현** |[07. 럭키 스트레이트](https://github.com/Minimoa/TIC/blob/main/Part%203/07.md)    |     ✔  |      |      |
 |         |                        |      |      |      |
 
 
