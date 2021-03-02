@@ -29,7 +29,8 @@
 |         |[10. 자물쇠와 열쇠](https://github.com/Minimoa/TIC/blob/main/Part%203/10.md)    |     ✔  |      |      |💣|
 |         |[11. 뱀](https://github.com/Minimoa/TIC/blob/main/Part%203/11.md)    |     ✔  |      |      ||
 |         |[12. 기둥과 보 설치](https://github.com/Minimoa/TIC/blob/main/Part%203/12.md)    |     ✔  |      |      |💣|
-|         |[13. 치킨배달](https://github.com/Minimoa/TIC/blob/main/Part%203/13.md)    |      |      |      ||
+|         |[13. 치킨배달](https://github.com/Minimoa/TIC/blob/main/Part%203/13.md)    |  ✔    |      |      ||
+|         |[14. 외벽점검](https://github.com/Minimoa/TIC/blob/main/Part%203/14.md)    |   ✔   |      |      |💣|
 
 
 
