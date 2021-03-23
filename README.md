@@ -31,6 +31,13 @@
 |         |[12. 기둥과 보 설치](https://github.com/Minimoa/TIC/blob/main/Part%203/12.md)    |     ✔  |      |      |💣|
 |         |[13. 치킨배달](https://github.com/Minimoa/TIC/blob/main/Part%203/13.md)    |  ✔    |      |      ||
 |         |[14. 외벽점검](https://github.com/Minimoa/TIC/blob/main/Part%203/14.md)    |   ✔   |      |      |💣|
+| **DFS/BFS**        |[15. 특정 거리의 도시 찾기](https://github.com/Minimoa/TIC/blob/main/Part%203/15.md)    |   ✔   |      |      |💣|
+|         |[16. 연구소](https://github.com/Minimoa/TIC/blob/main/Part%203/16.md)    |   ✔   |      |      |💣|
+|         |[17. 경쟁적 전염](https://github.com/Minimoa/TIC/blob/main/Part%203/17.md)    |   ✔   |      |      |💣|
+|         |[18. 괄호 변환](https://github.com/Minimoa/TIC/blob/main/Part%203/18.md)    |   ✔   |      |      |💣|
+|         |[19. 연산자 끼워 넣기](https://github.com/Minimoa/TIC/blob/main/Part%203/19.md)    |   ✔   |      |      |💣|
+|         |[20. 감시 피하기](https://github.com/Minimoa/TIC/blob/main/Part%203/20.md)    |   ✔   |      |      |💣|
+|         |[21. 인구 이동](https://github.com/Minimoa/TIC/blob/main/Part%203/21.md)    |   ✔   |      |      |💣|
 
 
 
