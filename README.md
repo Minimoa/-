@@ -38,6 +38,12 @@
 |         |[19. 연산자 끼워 넣기](https://github.com/Minimoa/TIC/blob/main/Part%203/19.md)    |   ✔   |      |      |💣|
 |         |[20. 감시 피하기](https://github.com/Minimoa/TIC/blob/main/Part%203/20.md)    |   ✔   |      |      |💣|
 |         |[21. 인구 이동](https://github.com/Minimoa/TIC/blob/main/Part%203/21.md)    |   ✔   |      |      |💣|
+|         |[22. 블록 이동하기](https://github.com/Minimoa/TIC/blob/main/Part%203/22.md)    |   ✔   |      |      |💣|
+| **정렬문제**        |[23. 국영수](https://github.com/Minimoa/TIC/blob/main/Part%203/23.md)    |   ✔   |      |      |💣|
+|         |[24. 안테나](https://github.com/Minimoa/TIC/blob/main/Part%203/24.md)    |   ✔   |      |      |💣|
+|         |[25. 실패율](https://github.com/Minimoa/TIC/blob/main/Part%203/25.md)    |   ✔   |      |      |💣|
+|         |[26. 카드 정렬](https://github.com/Minimoa/TIC/blob/main/Part%203/26.md)    |   ✔   |      |      |💣| 
+| **이진탐색문제**  |[27. 정렬된 배열에서 특정 수의 개수 구하기](https://github.com/Minimoa/TIC/blob/main/Part%203/27.md)    |   ✔   |      |      || 
 
 
 
